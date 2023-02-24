@@ -1,0 +1,70 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-service.css");
+    
+    
+******************************************************************************************/
+
+.at-service{
+    background-color: var(--bg-main-gray);
+    padding: 50px 0;
+}
+.at-service .row{
+    max-width: 950px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.at-service header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.at-service header h2{
+    font-size: 24px;
+}
+.at-service ul li{
+    list-style: disc;
+    color: var(--color-font);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.at-service ul li b{
+    font-weight: 600;
+}
+
+.at-service_box{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+    .at-service .row {
+        justify-content: flex-start
+    }
+    .at-service_box {
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .at-service .row {
+        justify-content: flex-start
+    }
+    .at-service_box {
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+}
+/***** Tamanho para smartphones na horizontal *****/

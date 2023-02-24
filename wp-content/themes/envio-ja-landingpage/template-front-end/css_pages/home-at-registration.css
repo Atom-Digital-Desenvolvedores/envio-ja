@@ -1,0 +1,68 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-registration.css");
+    
+    
+******************************************************************************************/
+
+.at-registration{
+    padding: 70px 0;
+    background-color: var(--color-details-secondary);
+    text-align: center;
+}
+
+.at-registration .at-title-main{
+    color: var(--color-font-white);
+}
+.at-registration .p-big{
+    color: var(--color-font-white);
+}
+
+.at-registration form{
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.at-registration form .col-12{
+    margin-bottom: 20px;
+}
+.at-registration input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.at-registration label{
+    color: var(--color-font-white);
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.at-registration label span{
+    color: var(--color-details-primary);
+}
+
+@media screen and (max-width: 992px){
+
+}
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+    .at-registration form {
+        width: 400px;
+    }   
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .at-registration form {
+        width: 400px;
+    }
+}
+/***** Tamanho para smartphones na horizontal *****/

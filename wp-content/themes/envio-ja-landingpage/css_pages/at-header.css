@@ -1,0 +1,71 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-header.css");
+    
+    
+******************************************************************************************/
+.at-header{
+    background-color: var(--bg-main-gray);
+    padding: 15px 0;
+}
+.at-header_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.at-icons_header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.at-contact-header{
+    display: flex;
+    gap: 20px;
+}
+.at-brand img{
+    max-height: 120px;
+}
+.navbar-nav {
+    /* text-align: center; */
+    width: 100%;
+    justify-content: center;
+}
+
+.at-icons_header li a{
+    color: var(--color-details-secondary);
+    font-size: 32px;
+    transition: .3s ease-in-out;
+}
+.at-icons_header li a:hover{
+    color: var(--color-details-primary);
+}
+
+
+@media screen and (max-width: 992px){
+    .at-contact-header {
+        justify-content: center;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-nav .nav-item{
+        border-bottom: 1px solid var(--color-font);
+    }
+}
+
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+
+}
+/***** Tamanho para smartphones na horizontal *****/

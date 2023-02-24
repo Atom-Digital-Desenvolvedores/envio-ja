@@ -1,0 +1,57 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-faq.css");
+    
+    
+******************************************************************************************/
+
+.at-faq{
+    padding: 70px 0;
+    background-color: var(--bg-main-gray);
+}
+
+.at-faq header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.at-faq .accordion{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-button{
+    border: 5px  !important;
+}
+
+.accordion-item {
+    border: var(--bs-accordion-border-width) solid var(--color-details-secondary);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.accordion-button{
+    background-color: var(--color-details-secondary) !important;
+    color: var(--color-font-white) !important;
+
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../svg/seta-para-baixo.svg);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../svg/seta-para-baixo.svg);
+}

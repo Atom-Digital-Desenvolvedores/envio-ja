@@ -1,0 +1,72 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-how-Itworks.css");
+    
+    
+******************************************************************************************/
+
+.at-how-Itworks {
+    padding: 70px 0;
+}
+.at-how-Itworks header{
+    text-align: center;
+}
+.at-how-Itworks .swiper{
+    padding-top: 30px;
+}
+
+.at-how-Itworks p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.at-how-Itworks_carousel{
+    margin-top: 50px;
+}
+
+.at-how-Itworks .btn-main_page{
+    margin-top: 50px;
+}
+.at-how-Itworks_center{
+    text-align: center;
+}
+
+.at-how-Itworks_item figure{
+    text-align: center;
+}
+.at-how-Itworks_item img{
+    margin-bottom: 20px;
+    max-height: 80px;
+    transition: .5s ease-out;
+}
+.at-how-Itworks_item:hover img{
+    transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 992px){
+    .swiper-button-next, .swiper-button-prev {
+        color: var(--color-details-primary) !important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 30px !important;
+    }
+    .at-how-Itworks_item{
+        text-align: center;
+    }
+}
+
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+
+}
+/***** Tamanho para smartphones na horizontal *****/

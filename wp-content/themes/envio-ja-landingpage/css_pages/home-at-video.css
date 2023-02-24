@@ -1,0 +1,39 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-video.css");
+    
+******************************************************************************************/
+
+.at-video {
+    padding: 70px 0;
+}
+.at-video .row{
+    align-items: center;
+}
+.at-video .at-title-main{
+    color: var(--color-details-secondary);
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+    .at-video video{
+        margin-top: 30px;
+    }
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .at-video video{
+        margin-top: 30px;
+    }
+}
+/***** Tamanho para smartphones na horizontal *****/

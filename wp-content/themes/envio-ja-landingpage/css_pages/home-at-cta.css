@@ -1,0 +1,30 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-cta.css");
+    
+    
+******************************************************************************************/
+
+.at-cta{
+    padding: 30px 0;
+    background-color: var(--color-details-primary   );
+}
+.at-cta .row{
+    align-items: center;
+}
+ 
+.at-cta .p-big{
+    color: var(--color-font-white);
+}             
+.at-cta .btn-main_page{
+    background-color: var(--color-details-secondary);
+}
+
+.at-cta_box{
+    display: flex;
+    justify-content: center;
+}

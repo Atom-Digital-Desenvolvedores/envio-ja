@@ -1,0 +1,25 @@
+/******************************************************************************************
+
+    Arquivo onde vamos linkar todo CSS do site!
+        SEMPRE ATENTO COM AS LINHAS, QUALQUER ERRO pode influenciar no funcionamento do site
+            SEMPRE DEIXAR SOMENTE AS LINHAS DAS SESSÕES REFERENTE AO TEMPLATE
+
+******************************************************************************************/
+
+@import url(css_pages/at-header.css);
+
+@import url(css_pages/home-at-video.css);
+
+@import url(css_pages/home-at-service.css);
+
+@import url(css_pages/home-at-how-Itworks.css);
+
+@import url(css_pages/home-at-about.css);
+
+@import url(css_pages/home-at-faq.css);
+
+@import url(css_pages/home-at-cta.css);
+
+@import url(css_pages/home-at-registration.css);
+
+@import url(css_pages/footer.css);
